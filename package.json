@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "pdf-merger-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool to merge multiple PDF files into one",
+  "main": "pdf-merger-cli.js",
+  "bin": {
+    "pdf-merge": "./pdf-merger-cli.js"
+  },
+  "scripts": {
+    "start": "node pdf-merger-cli.js"
+  },
+  "author": "Jonas",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "pdf-lib": "^1.17.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug PDF Merger",
+      "program": "${workspaceFolder}/pdf-merger-cli.js",
+      "args": [
+        "${workspaceFolder}/sample.pdf",
+        "${workspaceFolder}/sample2.pdf",
+        "-o",
+        "${workspaceFolder}/merged.pdf"
+      ],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
